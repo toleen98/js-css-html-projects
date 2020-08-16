@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+body{
+    background:hsl(210, 36%, 96%);
+    place-items: center;
+    text-align: center;
+    font-family:"Open Sans", sans-serif;
+}
+.flex-container{
+    display: inline-flex;
+    position: relative;
+    left: 10px;
+}
+
+#q{
+    
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius:50% ;
+    background: rgb(0, 169, 211) ;
+    text-align: center;
+    color: white;
+    padding-top: 12px;
+    
+}
+.container {
+    border: 1px solid rgb(240, 239, 239) ;
+    margin: 5% 25%;
+    padding: 2%;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    box-shadow: 9px 0 1px -1px rgb(0, 169, 211);
+}
+
+
+#border {
+    margin-top:-10px;
+    border-top: 4px solid rgb(0, 204, 255);
+    border-bottom-width: 10px 10px;
+    width: 60px;
+    margin-left: 48.4%;
+}
+
+.btn{
+    margin-bottom: 10px;
+    background: transparent;
+    border: white;
+    color: skyblue;
+   padding: 0;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+.fas{
+    font-weight: 700;
+    font-size: 25px;
+}
+.fa-quote-right{
+    font-size: 16px;
+}
+
+#surprise {
+    background: rgb(219, 244, 255);
+    color: rgb(97, 177, 211);
+    margin-top: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    border-radius:8px;
+}
+
+#h4{
+    font-size: 1.25rem;    
+    font-family: "Open Sans", sans-serif;
+    margin-top: -2px;
+}
+#h5{
+   padding: 0px; 
+   color: rgb(97, 177, 211);
+   font-size: 12px;
+
+}
+p{
+    color: slategray;
+}
