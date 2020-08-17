@@ -26,7 +26,7 @@ body{
 }
 .container {
     border: 1px solid rgb(240, 239, 239) ;
-    margin: 5% 25%;
+    margin: 3% 25%;
     padding: 2%;
     background: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
